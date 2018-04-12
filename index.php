@@ -56,8 +56,33 @@
       <div class="starter-template">
         <h1>
 <?php
-  echo 'Centrální obrazovka všehomíra';
+          $text='Ahoj';
+          echo $text;
+          
+          /*$test = "false";
+            var_dump($test);*/
+           
+          echo ' ';
+          
+          $text2='Karel';
+            echo $text2;
+          
+          echo ' ';
+          
+          $cislo=5;
+          echo $cislo;
+            
+          echo ' ';
+          
+          $array=[2, '.', 'lekce'];
+          var_dump($array);
+          echo'<br>';
+          
+          $pole2=['name' => 'Tonda', 'surrname' => 'Mucha'];
+          echo $pole2['surrname'];
+          
 
+          
 ?>
         </h1>
         <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
